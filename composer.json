@@ -1,0 +1,24 @@
+{
+    "name": "bobonov/yii2-adminlte3-widgets",
+    "description": "AdminLTE3 Widget for Yii2 Framework",
+    "type": "library",
+    "require": {
+        "bobonov/yii2-adminlte3-asset": "dev-master"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "bobonov\\adminlte3\\widgets\\":"src/"
+        }
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Roberto Braga",
+            "email": "bobonov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
